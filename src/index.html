@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -6,13 +7,229 @@
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header" class="menu">
+        <img src="./assets/images/logo.svg" alt="Logo" class="logo">
+        <nav class="button-group">
+            <a href="#about" class="nav-button">About me</a>
+            <a href="#education" class="nav-button">Education</a>
+            <a href="#experience" class="nav-button">Work Experience</a>
+            <a href="#skills" class="nav-button">Skills</a>
+            <a href="#contacts" class="nav-button">Contacts</a>
+        </nav>
+    </header>
+
+    <section id="about" class="block hero">
+        <h1 class="hero-title">Hello!<br>My name is Alex Smith<br>I'm creative front-end developer</h1>
+        <div class="hero-image">
+            <img src="./assets/images/hero.jpeg" alt="Hero">
+        </div>
+    </section>
+
+    <section id="education" class="block">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="education-column">
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Kingston university</p>
+                        <p class="education-degree">Master's degree - Software Engineering</p>
+                    </div>
+                    <p class="education-years">2019 - 2021</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Kingston university</p>
+                        <p class="education-degree">Bachelor's degree - Computer Engineering</p>
+                    </div>
+                    <p class="education-years">2015 - 2019</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Westminster School</p>
+                        <p class="education-degree">Diploma's degree - Mathematics</p>
+                    </div>
+                    <p class="education-years">2013 - 2015</p>
+                </div>
+            </div>
+            <div class="education-column">
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Kingston university</p>
+                        <p class="education-degree">Master's degree - Software Engineering</p>
+                    </div>
+                    <p class="education-years">2019 - 2021</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Kingston university</p>
+                        <p class="education-degree">Bachelor's degree - Computer Engineering</p>
+                    </div>
+                    <p class="education-years">2015 - 2019</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-info">
+                        <p class="education-university">Westminster School</p>
+                        <p class="education-degree">Diploma's degree - Mathematics</p>
+                    </div>
+                    <p class="education-years">2013 - 2015</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="block">
+        <h2 class="section-title">Work<br>Experience</h2>
+        <div class="button-group-experience">
+            <button class="nav-button">Apple</button>
+            <button class="nav-button">Microsoft</button>
+            <button class="nav-button">Facebook</button>
+        </div>
+        <div class="experience-content">
+            <div class="experience-image">
+                <img src="./assets/images/experience.jpeg" alt="Experience">
+            </div>
+            <div class="experience-text">
+                <div class="experience-header">
+                    <p class="experience-position">Front-end Developer Apple.Inc</p>
+                    <p class="experience-location">California, United States</p>
+                </div>
+                <p class="experience-duration">Nov 2020 - Present · Full-time</p>
+                <div class="experience-description">
+                    <p>В начале XX века немецкие психологи провели исследования восприятия человеком окружающего мира. Они выявили естественное стремление человека найти порядок в беспорядке.</p>
+                    <p>Их эксперименты показали, что когда мозг обрабатывает полученные образы, он воспринимает разрозненные элементы как единое целое. Подсознательно мы пытаемся группировать похожие элементы, распознавать закономерности и таким образом упрощать сложные образы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="block">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-column">
+                <div class="skill-item">
+                    <p class="skill-label">React</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">Angular</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">HTML + CSS</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">Javascript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 20%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">Python</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 25%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skill-item">
+                    <p class="skill-label">Soft skill</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">Motion graphics</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">UX</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 20%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">UI</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <p class="skill-label">3D</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 25%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="add-skill-form">
+            <p class="form-title">Add new skill</p>
+            <div class="form-fields">
+                <div class="form-field">
+                    <label class="form-label">Skill name</label>
+                    <input type="text" class="form-input" placeholder=" ">
+                </div>
+                <div class="form-field">
+                    <label class="form-label">Skill proficiency percentage, %</label>
+                    <input type="text" class="form-input" placeholder=" ">
+                </div>
+                <button type="submit" class="form-button">Add</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="contacts" class="block">
+        <h2 class="section-title">Contacts</h2>
+        <div class="contacts-grid">
+            <div class="contact-box">
+                <img src="./assets/images/pin.svg" alt="Address" class="contact-icon">
+                <div class="contact-text">
+                    <p class="contact-title">Address</p>
+                    <p class="contact-value">16 Lva Tolstogo str., Moscow</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <img src="./assets/images/phone-call.svg" alt="Phone" class="contact-icon">
+                <div class="contact-text">
+                    <p class="contact-title">Phone</p>
+                    <a href="tel:+70000000000" class="contact-value">+7 (000) 000 00 00</a>
+                </div>
+            </div>
+            <div class="contact-box">
+                <img src="./assets/images/mail.svg" alt="Email" class="contact-icon">
+                <div class="contact-text">
+                    <p class="contact-title">E-Mail</p>
+                    <a href="mailto:myemail@yandex.ru" class="contact-value">myemail@yandex.ru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="social-media">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/instagram.svg" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/github.svg" alt="Github" class="social-icon">
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/twitter.svg" alt="Twitter" class="social-icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/linkedin.svg" alt="Linkedin" class="social-icon">
+            </a>
+        </div>
+        <p class="copyright">© 2023</p>
+    </footer>
 </div>
 
 <img class="Image" width="500px"/>

@@ -13,12 +13,6 @@ export default defineConfig({
     screenshot: 'on',
     viewport: { width: 390, height: 770 },
   },
-  projects: [
-    {
-      name: 'Mobile Chrome',
-      use: devices['Pixel 5'],
-    }
-  ],
   webServer: {
     command: 'npx vite',
     url: 'http://localhost:3030',
